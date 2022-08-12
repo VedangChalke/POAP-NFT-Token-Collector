@@ -1,0 +1,43 @@
+Option 1 - open a GH Issue (slower)
+Provide the folowing:
+
+url:
+   "URL linking to csv of eligible addresses and amounts",
+
+    imgSrc: "URL linking to project/protocol logo",
+    claimUrl: "URL users go to in-order to claim",
+    displayName: "Token name (UNI, TORN, etc.)",
+A completed example
+Issue title: "Add Tornado cash"
+
+Example:-
+url:
+    "https://raw.githubusercontent.com/tornadocash/airdrop/master/airdrop.csv",
+
+    # Github org images work well here
+    imgSrc: "https://avatars.githubusercontent.com/u/58548030?s=200&v=4",
+    claimUrl: "https://app.tornado.cash/airdrop/",
+    displayName: "TORN",
+
+
+
+Option 2:-
+Add the airdrop data source to the claimable lists.
+Add the required data to csv-claimables (everything in option 1 above).
+Run :- npm run build:claimable-data
+Verify this created a new source file in src/claimable-data/* and that the master address data looks correct in src/claimable-data/master-airdrop-data.json
+
+
+
+
+
+For Web App Development
+1)npm install
+2)Copy .env.sample to .env and replace with required variables
+
+3)npm run dev
+4)Open http://localhost:3000 with your browser to see the result.
+
+(*You can start editing pages in pages/*. They auto-update on save)
+
+The pages/api directory is mapped to /api/*. Files in this directory are treated as API routes instead of React pages.

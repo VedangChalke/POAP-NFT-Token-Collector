@@ -1,0 +1,2 @@
+This Project is based on POAP(Proof of Attendance Protocol) where people can showcase/display there presence in a certain event provide by the organiser which after provide NFT tokens to the event member/participants through POAP.
+Our Project is focused to collect NFT Tokens OR Claim the tokens through Airdrop.
